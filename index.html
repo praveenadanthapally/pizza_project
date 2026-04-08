@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headless Pizza 🍕</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo-cont">
+            <img src="https://static.wixstatic.com/media/5c88b3_977429103c9445d09e2d0c33873d8715~mv2.png/v1/fill/w_278,h_98,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5c88b3_977429103c9445d09e2d0c33873d8715~mv2.png" alt="Headless Pizza Logo">
+        </div>
+        <div class="header__search">
+            <input type="text" class="header__search-input" placeholder="Search for pizzas...">
+            <button class="header__search-submit">
+                <i class='bx bx-search'></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="main-content__upper">
+                <h2 class="main-content__upper-title">Showing our <span>Pizza Menu</span></h2>
+            </div>
+            
+            <!-- Pizza Items Grid -->
+            <div class="items">
+                <!-- Pizza Item 1 -->
+                <div class="item">
+                    <div class="item__img-cont">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&h=500&fit=crop" alt="Margherita Pizza">
+                    </div>
+                    <h3 class="item__name">Margherita</h3>
+                    <div class="item__highlights">
+                        <div class="item__rating">
+                            <div class="item__rating-icon-cont">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div>4.5</div>
+                        </div>
+                        <div class="item__price">₹299</div>
+                    </div>
+                </div>
+
+                <!-- Pizza Item 2 -->
+                <div class="item">
+                    <div class="item__img-cont">
+                        <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500&h=500&fit=crop" alt="Pepperoni Pizza">
+                    </div>
+                    <h3 class="item__name">Pepperoni</h3>
+                    <div class="item__highlights">
+                        <div class="item__rating">
+                            <div class="item__rating-icon-cont">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div>4.7</div>
+                        </div>
+                        <div class="item__price">₹399</div>
+                    </div>
+                </div>
+
+                <!-- Pizza Item 3 -->
+                <div class="item">
+                    <div class="item__img-cont">
+                        <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&h=500&fit=crop" alt="BBQ Chicken Pizza">
+                    </div>
+                    <h3 class="item__name">BBQ Chicken</h3>
+                    <div class="item__highlights">
+                        <div class="item__rating">
+                            <div class="item__rating-icon-cont">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div>4.6</div>
+                        </div>
+                        <div class="item__price">₹449</div>
+                    </div>
+                </div>
+
+                <!-- Pizza Item 4 -->
+                <div class="item">
+                    <div class="item__img-cont">
+                        <img src="https://images.unsplash.com/photo-1511689660979-10d2b1aada49?w=500&h=500&fit=crop" alt="Veggie Supreme Pizza">
+                    </div>
+                    <h3 class="item__name">Veggie Supreme</h3>
+                    <div class="item__highlights">
+                        <div class="item__rating">
+                            <div class="item__rating-icon-cont">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div>4.4</div>
+                        </div>
+                        <div class="item__price">₹349</div>
+                    </div>
+                </div>
+
+                <!-- Pizza Item 5 -->
+                <div class="item">
+                    <div class="item__img-cont">
+                        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&h=500&fit=crop" alt="Farmhouse Pizza">
+                    </div>
+                    <h3 class="item__name">Farmhouse</h3>
+                    <div class="item__highlights">
+                        <div class="item__rating">
+                            <div class="item__rating-icon-cont">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div>4.8</div>
+                        </div>
+                        <div class="item__price">₹429</div>
+                    </div>
+                </div>
+
+                <!-- Pizza Item 6 -->
+                <div class="item">
+                    <div class="item__img-cont">
+                        <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&h=500&fit=crop" alt="Mexican Green Wave Pizza">
+                    </div>
+                    <h3 class="item__name">Mexican Green Wave</h3>
+                    <div class="item__highlights">
+                        <div class="item__rating">
+                            <div class="item__rating-icon-cont">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div>4.3</div>
+                        </div>
+                        <div class="item__price">₹379</div>
+                    </div>
+                </div>
+
+                <!-- Pizza Item 7 -->
+                <div class="item">
+                    <div class="item__img-cont">
+                        <img src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=500&h=500&fit=crop" alt="Deluxe Veggie Pizza">
+                    </div>
+                    <h3 class="item__name">Deluxe Veggie</h3>
+                    <div class="item__highlights">
+                        <div class="item__rating">
+                            <div class="item__rating-icon-cont">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div>4.5</div>
+                        </div>
+                        <div class="item__price">₹399</div>
+                    </div>
+                </div>
+
+                <!-- Pizza Item 8 -->
+                <div class="item">
+                    <div class="item__img-cont">
+                        <img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=500&h=500&fit=crop" alt="Paneer Tikka Pizza">
+                    </div>
+                    <h3 class="item__name">Paneer Tikka</h3>
+                    <div class="item__highlights">
+                        <div class="item__rating">
+                            <div class="item__rating-icon-cont">
+                                <i class='bx bx-star'></i>
+                            </div>
+                            <div>4.9</div>
+                        </div>
+                        <div class="item__price">₹459</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__upper">
+                <div class="footer__branding">
+                    <div class="footer__logo-cont">
+                        <img src="https://static.wixstatic.com/media/5c88b3_977429103c9445d09e2d0c33873d8715~mv2.png/v1/fill/w_278,h_98,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5c88b3_977429103c9445d09e2d0c33873d8715~mv2.png" alt="Headless Pizza Logo">
+                    </div>
+                    <p class="footer__text">Headless Pizza is a demo app to showcase Pizza Menu built using Wix Studio's Headless CMS as the Backend along with React JS as the Frontend.</p>
+                    <div class="footer__socials">
+                        <i class='bx bxl-instagram'></i>
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-youtube'></i>
+                        <i class='bx bxl-linkedin'></i>
+                        <i class='bx bxl-whatsapp'></i>
+                    </div>
+                </div>
+                <div class="footer__newsletter">
+                    <h4 class="footer__newsletter-title">Subscribe</h4>
+                    <form class="footer__newsletter-form">
+                        <input type="text" placeholder="johndoe@gmail.com">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <p>Subscribe to our newsletter for latest updates, deals and offers related to Headless Pizza right inside your mailbox.</p>
+                </div>
+            </div>
+            <div class="footer__lower">
+                <div class="text">┬⌐ 2024 Headless Pizza Limited</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
