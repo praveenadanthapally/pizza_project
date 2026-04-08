@@ -1,0 +1,24 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Qoder
+.qoder/
+
+# Helper scripts (temporary files)
+*.ps1
+download-*.ps1
+save-*.html
+temp.js
+
+# Logs
+*.log
+npm-debug.log*
