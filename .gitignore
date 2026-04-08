@@ -19,6 +19,10 @@ download-*.ps1
 save-*.html
 temp.js
 
+# Saved HTML files
+images/2image.html
+images/2image_files/
+
 # Logs
 *.log
 npm-debug.log*
